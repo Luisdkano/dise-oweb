@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Pacifico&display=swap');
+
+/* Estilos generales para la página web */
+body {
+  background-color: #0D0D0D;
+  color: #FFFFFF;
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Estilos para los titulos */
+h1, h2, h3, h4, h5, h6 {
+  color: #23468C;
+}
+
+a {
+  color: #BF9169;
+  text-decoration: none;
+}
+
+/* Estilos para los enlaces */
+a:hover {
+  color: #57C6F2;
+  text-decoration: underline;
+}
+
+/* Estilos para los botones*/
+.btn-primario {
+  background-color: #23468C;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.btn-primario:hover {
+  background-color: #3098F2;
+}
+
+/* Fuente del Parrafó*/
+p {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
