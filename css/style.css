@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Pacifico&display=swap');
+@font-face {
+  font-family: "Limelight";
+  src: url("../assets/fonts/Limelight-Regular.ttf") format("truetype");
+}
 
 /* Estilos generales para la página web */
 body {
@@ -47,5 +51,6 @@ a:hover {
 p {
   font-family: "Pacifico", cursive;
   font-weight: 400;
+  font-size: 30px;
   font-style: normal;
 }
