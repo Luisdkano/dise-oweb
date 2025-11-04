@@ -3,39 +3,67 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/icon/icon.ico" type="image/png" />
-    <link rel="stylesheet" href=".//css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
-    <title>Refugio de Animales</title>  
+    <title>Refugio de Animales</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li class="lista"><a href="index.html">Inicio</a></li>
-                <li class="lista"><a href="./pages/historias.html">Ver las historias</a></li>
-                <li class="lista"><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h1>Somos un Refugio canino donde brindamos un ambiente seguro donde los animales pueden recuperarse física y emocionalmente, mientras esperan ser adoptados por nuevas familias responsables.</h1>
-            <div class="grid-container">  
-                <img src="./assets/imagenes/el loco corcho.jpg" alt="imagen de el loco corcho" class="cimg"/>
-                <img src="./assets/imagenes/adoptame.jpg" alt="imagen de los tres mosqueteros" class="cimg"/>
-                <img src="./assets/imagenes/cosito.jpg" alt="imagen de labrador" class="cimg"/>
-                <img src="./assets/imagenes/animalitos,loritos.jpg" alt="imagen de los tres mosqueteros" class="cimg" />
-                <img src="./assets/imagenes/perritoconcartel.jpg" alt="perrito con cartel" class="cimg"/>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">Refugio</div>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="./pages/historias.html">Historias</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h1>
+                Somos un Refugio canino donde brindamos un ambiente seguro donde los animales pueden recuperarse física y emocionalmente, mientras esperan ser adoptados por nuevas familias responsables.
+            </h1>
+
+            <div class="grid-container">
+                <img src="./assets/imagenes/el loco corcho.jpg" alt="imagen de perro 1">
+                <img src="./assets/imagenes/adoptame.jpg" alt="imagen de perro 2">
+                <img src="./assets/imagenes/cosito.jpg" alt="imagen de perro 3">
+                <img src="./assets/imagenes/animalitos,loritos.jpg" alt="imagen de loritos">
+                <img src="./assets/imagenes/perritoconcartel.jpg" alt="perrito con cartel">
+                <div class="placeholder">Más animales esperando ser adoptados.</div>
             </div>
-        <li>
-            <a href="https://es.wikipedia.org/wiki/Refugio_de_animales#" target="_blank">
-                Si desea saber más sobre los refugios de animales, haga clic aquí
-            </a>
-        </li>
-    <!--Luis y Jorge hicieron el código inicial!-->
-    <!--carrusel-->
-    </section>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-col contacto">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><a href="https://www.google.com/maps/place/W.+Cross+2700,+T4001+San+Miguel+de+Tucum%C3%A1n,+Tucum%C3%A1n/data=!4m2!3m1!1s0x94225daf218756d5:0x542a4ac45ff08019?sa=X&ved=1t:242&ictx=111">⚲ W. Cross 2700</a></li>
+                        <li><a href="https://wa.me/3816443234">✆ WhatsApp</a></li>
+                        <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqWhBxZgPbxCGMbGfZPwLhJNLlMzTczLSZqDdvnLQJhBpmVRQKDxxdpvQsZQSZDDKPwKtg">✉ Correo</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col apoyo">
+                    <h3>¡Ayúdanos! ❤️</h3>
+                    <ul>
+                        <li><a href="https://wa.me/3816443234?text=Hola%2C%20c%C3%B3mo%20puedo%20hacer%20una%20donaci%C3%B3n%20econ%C3%B3mica%20al%20refugio%3F">Donaciones (WhatsApp)</a></li>
+                        <li><a href="./pages/adoptaranimal.html">Apadrina un Animal</a></li>
+                    </ul>
+                </div>
+
+                <div></div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>©2025 Derechos Reservados al refugio. | <span>¡No compres, adopta!</span></p>
+                <a href="https://es.wikipedia.org/wiki/Refugio_de_animales#" target="_blank">
+                    Si desea saber más sobre los refugios de animales, haga clic aquí
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
